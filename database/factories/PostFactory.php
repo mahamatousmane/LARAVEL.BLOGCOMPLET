@@ -19,7 +19,7 @@ class PostFactory extends Factory
     {
         return [
             'title'=>$this->faker->sentence(rand(5,10),true),
-            'content'=>$this->faker->sentences(5,true),
+            'content'=>$this->faker->sentences(5,true), //5 PHRASES
             //on donne une image arbitraire
             'image'=>'https://via.placeholder.com/100'
         ];

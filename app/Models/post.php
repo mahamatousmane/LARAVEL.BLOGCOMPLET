@@ -9,7 +9,7 @@ class post extends Model
 {
     use HasFactory;
 
-    protected $guarded=[]; //?
+    protected $guarded=[]; //? CREATION D'UN CHAMP PROTEGE GUARDED A VIDE
     //un post appartien à un utiliszateur et un post appartient à un category
     public function user()
     {
